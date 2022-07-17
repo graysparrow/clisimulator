@@ -1,0 +1,10 @@
+syntax="proto3";
+
+option go_package="./pb";
+
+message SayHello 
+{
+	optional string msg = 1;
+	optional string name = 2;
+	optional int32 age = 3;
+}
